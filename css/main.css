@@ -109,7 +109,8 @@ margin-top: -60px
 }
 
 .conteudo-principal-escrito-botao:hover {
-    background: linear-gradient(to right, #228B22, #7CFC00)
+    background: linear-gradient(to right, #228B22, #7CFC00);
+    display: flex;
 
 
 }
