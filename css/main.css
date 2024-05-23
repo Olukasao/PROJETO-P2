@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 body {
  width: 100%;
 height: 100%;
@@ -6,13 +10,106 @@ height: 100%;
 width: 100%;
 background-color: rgb(0, 110, 255);
 height: 60px;
+display: block;
 }
 main {
 margin: 0 auto;
 width: 900px;
 position: relative;
 }
+
 .logo {
-padding: 16px;
+max-width: 66%;
+display: flex;
+margin-left: -10px;
+margin-top: -60px
+
+}
+.menu ul li {
+    display: inline-block
+    
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: Poppins;
+    color: #ffff;
+}
+
+.menu {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner {
+    max-width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    margin-top: -150px;
+    display: block;
+
+}
+
+.conteudo {
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -650px;
+    margin-left: -900px;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    font-family: "Poppins";
+    color: #ffff;
+}
+.conteudo-principal-escrito-titulo{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 51px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-size: 20px;
+
+
+}
+
+.inscricoes{
+    font-family: Poppins;
+    color: #ffff;
+    font-size: 25px;
+    display: flex;
+    margin: 320px;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.conteudo-principal-escrito-botao {
+    background: linear-gradient(to right, #01441e, #03f103);
+    color: #ffffff; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 5px 20px; 
+    cursor: pointer; 
+    font-family: Poppins;
+    font-size: 18px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s; /* Transição suave da cor de fundo */
+
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background: linear-gradient(to right, #228B22, #7CFC00)
+
 
 }
