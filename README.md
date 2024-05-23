@@ -1,18 +1,34 @@
-<h1 align="center">Trabalho Site P2</h1>
-<h2 align="left">Tabela de Conteúdo 😍</h2>
-<p id="tabelaconteudo" align="center">
-<a href="#Descrição do Trabalho">Descrição do Projeto</a> •
-<a href="#Status do Trabalho">Status do Trabalho</a> •
-<a href="#Mapa Do Trabalho">Mapa Do Trabalho</a> •
-<a href="#Tecnologias">Tecnologias</a>
-<h2 align="left">Descrição do Trabalho 📘
-<h3><p align="left">Consiste na criação de um site de venda de produtos, com login, cesta contendo os produtos escolhidos, página da conta, páginas contendo os produtos e página home</h3>
-<h2 align="left">Status do Trabalho ⚒️
-<h4 align="center"> Em Construção... 🍆
-<h2 align="left"> Mapa do Trabalho 🗺️
-<h4><p align="left">A ser colocado ainda</h4> 
-<h2 align="left"> Tecnologias 💻
-<h4><p align="left">A ser colocado ainda</h4>
-<p align="center">
-<img width="62%" src="./img/anchieta.png">
-</p>
+# Rebranding do Site Unianchieta ⚒️
+
+Bem-vindo ao projeto de rebranding do site Unianchieta! Este documento serve como uma introdução ao projeto e fornece instruções sobre como configurar e contribuir.
+
+## Visão Geral 😎
+
+O objetivo deste projeto é atualizar e modernizar a presença online da Unianchieta, proporcionando uma experiência de usuário aprimorada e uma identidade visual renovada. Isso inclui um redesign completo do site e melhorias na navegação.
+
+## Estrutura do Projeto 🏨
+
+- */docs*: Documentação do projeto
+- */src*: Código-fonte do site
+  - */assets*: Imagens, ícones e outros recursos
+  - */components*: Componentes reutilizáveis do front-end
+  - */pages*: Páginas do site
+  - */styles*: Arquivos de estilo (CSS/SASS)
+  - */scripts*: Scripts de JavaScript
+- */tests*: Testes automatizados
+- */build*: Versão compilada para produção
+
+## Tecnologias Utilizadas 💻
+
+- *HTML5*
+- *CSS3 / SASS*
+- *JavaScript / ES6+*
+- *React.js* (ou outra biblioteca/framework de front-end que você esteja usando)
+- *Node.js* (para ambiente de desenvolvimento)
+- *Webpack* (para construção e bundling do projeto)
+
+## Configuração do Ambiente de Desenvolvimento ⚒️
+
+Para configurar o ambiente de desenvolvimento, siga as etapas abaixo:
+
+1. *Clone o repositório:*
