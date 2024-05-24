@@ -248,8 +248,28 @@ margin-top: -60px
     color: #666;
 }
 
+.conteudo-secundario-escrito {
+    font-size: 45px;
+    position: relative;
+    top: -100px;
+}
+
+.conteudo-principal-escrito-botao-agende {
+    background: linear-gradient(to right, #227b8b, #00fcfc);
+    color: #ffffff; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 5px 20px; 
+    cursor: pointer; 
+    font-family: Poppins;
+    font-size: 18px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+    .conteudo-principal-escrito-botao-agende:hover {
+    background: linear-gradient(to right, #227b8b, #00fcfc);
+    display: flex;
 
 
-
-
+}
 
