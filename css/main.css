@@ -266,7 +266,7 @@ margin-left: -175px;
 }
 
 .segunda-parte{
-    height: 698px;
+    height: 550px;
     background:#136ea3;
     position: relative;
     top: 193px;
@@ -400,9 +400,12 @@ margin-left: -175px;
 }
 
 .titulo {
-    color: white;
+    font-weight: 700;
+    color: #ffffff;
     position: relative;
     bottom: 650px;
+    background-color: #639ae223;
+    font-size: 180%;
 }
 
 .sobre {
@@ -425,10 +428,10 @@ margin-left: -175px;
     bottom: 343px;
 }
 .payment-value {
-    font-style: bold;
     font-size: 195%;
     position: relative;
     bottom: 363px;
+    font-weight: 700;
 }
 .desconto {
     color: #009dff;
@@ -446,8 +449,7 @@ margin-left: -175px;
 .duracao {
     color: white;
     position: relative;
-    bottom: 383px;
-    
+    bottom: 383px; 
 }
 .link-container {
     text-decoration: none;
