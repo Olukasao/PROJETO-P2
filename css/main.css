@@ -91,13 +91,11 @@ margin-left: -175px;
 
 .inscricoes{
     font-family: Poppins;
-    color: #ffff;
+    color: #ffffff;
     font-size: 25px;
-    display: flex;
+    display: inline-block;
     margin: 320px;
-    align-items: center;
     margin-top: 150px;
-
 }
 
 .conteudo-principal-escrito-botao {
@@ -111,14 +109,11 @@ margin-left: -175px;
     font-size: 18px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s; /* Transição suave da cor de fundo */
-
 }
 
 .conteudo-principal-escrito-botao:hover {
     background: linear-gradient(to right, #228B22, #7CFC00);
     display: flex;
-
-
 }
 
 .container {
@@ -126,24 +121,24 @@ margin-left: -175px;
     justify-content: space-between;
     align-items: center;
     width: 20%;
-
+    position: relative;
+    top: 123px;
+    left: 65px;
 }
 
 
 .box {
-    width: 260px;
-    height: 260px;
+    width: 290px;
+    height: 290px;
     margin: -370px;
-    border-radius: 60px;
+    border-radius: 30px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 8px 4px 15px rgba(0, 0, 0, 0.336);
     flex-shrink: 0;
     margin-top: -1050px;
     margin-left: 350px;
     margin-bottom: -500px;
     margin-right: -300px;
-
-
 }
 
 .box img {
@@ -156,16 +151,16 @@ margin-left: -175px;
     font-family: Poppins;
     color: #4d4d4d;
     position: relative;
-    top: -120px;
-    left: -810px;
+    top: -90px;
+    left: -905px;
 }
 
 .cursos {
     font-family: Poppins;
     color: #4d4d4d;
     position: relative;
-    top: -120px;
-    left: -650px;
+    top: -90px;
+    left: -728px;
     white-space: nowrap;
 }
 
@@ -173,8 +168,8 @@ margin-left: -175px;
     font-family: Poppins;
     color: #4d4d4d;
     position: relative;
-    top: -120px;
-    left: -530px;
+    top: -90px;
+    left: -575px;
     white-space: nowrap;
 }
 
@@ -182,17 +177,15 @@ margin-left: -175px;
     font-family: Poppins;
     color: #4d4d4d;
     position: relative;
-    top: -120px;
-    left: -400px;
+    top: -90px;
+    left: -417px;
     white-space: nowrap;
 }
 
 .conteudo-secundario{
     position: relative;
     top: -68px;
-
-
-
+    display: inline-block;
 }
 
 
@@ -202,25 +195,39 @@ margin-left: -175px;
     justify-content: center;
     gap: 20px;
     margin-top:211px;
-
-
+    flex-wrap: wrap;
+     /* Adicionando a sombra */
+    width: 1800px;
+    position: relative;
+    left: -455px;
+    
 }
 
 .course-box {
+    flex: 0 0 calc(22% - 2rem);
+    max-width: calc(75% - 2rem);
+    margin: 1rem;
+    background-color: #607277;
+    border-radius: 45px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
-    width: 800px;
-    background-color: #fff;
-    border-radius: 23px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    box-sizing: border-box;
-    border: 2px solid rgb(140, 184, 241);
+    font-family: Poppins;
+}
+
+.course-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .course-box img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 8px 8px 0 0;
+    object-fit: cover;
+    
+    
 }
 
 .course-type {
@@ -233,8 +240,9 @@ margin-left: -175px;
     font-family: Poppins;
     display: block;
     width: 100%;
-    padding: 10px;
-    margin: 5px 0;
+    height: 7%;
+    padding: 8px 45px;
+    margin: px 0;
     font-size: 16px;
     color: #fff;
     background-color: #007bff;
@@ -263,7 +271,6 @@ margin-left: -175px;
     position: relative;
     top: 193px;
     overflow: hidden;
-    
 }
 
 .texto-segunda-parte{
@@ -274,10 +281,6 @@ margin-left: -175px;
     left: 586px;
     font-size: 57px;
     white-space: nowrap;
-
-
-
-
 }
 
 .subparte2{
@@ -286,17 +289,7 @@ margin-left: -175px;
     position: relative;
     text-align: center;
     left: 586px;
-
-    
-
-
-
-
-
 }
-
-
-
 
 .conteudo-secundario-escrito {
     font-size: 45px;
@@ -304,24 +297,6 @@ margin-left: -175px;
     top: -100px;
 }
 
-.conteudo-principal-escrito-botao-agende {
-    background: linear-gradient(to right, #227b8b, #00fcfc);
-    color: #ffffff; 
-    border: none; 
-    border-radius: 20px; 
-    padding: 5px 20px; 
-    cursor: pointer; 
-    font-family: Poppins;
-    font-size: 18px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s; /* Transição suave da cor de fundo */
-}
-    .conteudo-principal-escrito-botao-agende:hover {
-    background: linear-gradient(to right, #227b8b, #00fcfc);
-    display: flex;
-
-
-}
 
 
 
@@ -335,7 +310,7 @@ margin-left: -175px;
     font-weight: 800;
     line-height: 51px;
     position: relative;
-    top: -1070px;
+    top: -1120px;
     left: -328px;
 }
 
@@ -366,20 +341,12 @@ margin-left: -175px;
     position: relative;
     top: -1138px;
     left: -328px;
-
-
-
 }
 
 .mapstexto {
     position: relative;
-    top: -954px;
+    top: -894px;
     left: 167px;
-   
-
-
-
-
 }
 
 
@@ -389,7 +356,6 @@ margin-left: -175px;
     position: relative;
     top: -313px;
     overflow: hidden;
-    
 }
 
 .texto-terceira-parte{
@@ -400,7 +366,6 @@ margin-left: -175px;
     left: -22px;
     font-size: 57px;
     white-space: nowrap;
-
 }
 
 .subparte3{
@@ -409,13 +374,6 @@ margin-left: -175px;
     position: relative;
     text-align: center;
     left: 56px;
-
-    
-
-
-
-
-
 }
 
 .video-container {
@@ -427,7 +385,6 @@ margin-left: -175px;
     border: 1px solid #ccc;
     border-radius: 25px;
     overflow: hidden;
-    
 }
 
 .video-container iframe {
@@ -437,8 +394,64 @@ margin-left: -175px;
     border: 0;
 }
 
+.payment-value {
+    font-size: 20px;
+    color: #ff6600; /* cor diferente */
+}
 
+.titulo {
+    color: white;
+    position: relative;
+    bottom: 650px;
+}
 
+.sobre {
+    color: white;
+    position: relative;
+    bottom: 350px;
+    background-color: #414441c9;
+    
+}
+.vlrparcela{
+    color: white;
+    font-style: bold;
+    position: relative;
+    font-size: 99%;
+    bottom: 343px;
+}
+.vlrtotal {
+    color: white;
+    position: relative;
+    bottom: 343px;
+}
+.payment-value {
+    font-style: bold;
+    font-size: 195%;
+    position: relative;
+    bottom: 363px;
+}
+.desconto {
+    color: #009dff;
+    font-size: 120%;
+}
+.avista {
+    color: white;
+}
+.carga {
+    color: white;
+    position: relative;
+    bottom: 363px;
+    
+}
+.duracao {
+    color: white;
+    position: relative;
+    bottom: 383px;
+    
+}
+.link-container {
+    text-decoration: none;
+}
 
 
 
