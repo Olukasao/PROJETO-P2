@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Usuários</title>
+    <link rel="stylesheet" href="css/cadastro.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Cadastre-se</h2>
+      <form id="formCadastro">
+        <div class="form-group">
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Nome"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="sobrenome"
+            name="sobrenome"
+            placeholder="Sobrenome"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="cpf"
+            name="cpf"
+            placeholder="CPF (xxx.xxx.xxx-xx)"
+            required
+          />
+          <small id="cpfHelp" class="form-text text-muted"
+            >Formato: xxx.xxx.xxx-xx</small
+          >
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="tel"
+            id="celular"
+            name="celular"
+            placeholder="Celular (xx) xxxxx-xxxx"
+            required
+          />
+          <small id="celularHelp" class="form-text text-muted"
+            >Formato: (xx) xxxxx-xxxx</small
+          >
+        </div>
+        <div class="form-group">
+          <select id="curso" name="curso" required>
+            <option value="" disabled selected>Selecione o curso</option>
+            <option value="curso1">Informática</option>
+            <option value="curso2">Enfermagem</option>
+            <option value="curso3">Administração</option>
+            <option value="curso3">Logística</option>
+            <option value="curso3">Marketing</option>
+            <option value="curso3">Segurança do Trabalho</option>
+            <option value="curso3">Eletrotécnica</option>
+            <option value="curso3">Automação Industrial</option>
+          </select>
+        </div>
+        <a href="cursos.html"></a>
+          <div class="form-group">
+             <button type="submit">Cadastrar</button>
+        </a>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const cpfInput = document.getElementById("cpf");
+        cpfInput.addEventListener("input", function () {
+          this.value = this.value.replace(/\D/g, "");
+        });
+
+        document
+          .getElementById("formCadastro")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+            validarFormulario();
+          });
+      });
+
+      function validarFormulario() {
+        const cpf = document.getElementById("cpf").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const celular = document.getElementById("celular").value.trim();
+
+        // Validar CPF (somente números e 11 dígitos)
+        if (!/^\d{11}$/.test(cpf)) {
+          alert("CPF inválido! Por favor, insira exatamente 11 dígitos.");
+          return;
+        }
+
+        // Validar email
+        const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!regexEmail.test(email)) {
+          alert("Email inválido! Por favor, insira um email válido.");
+          return;
+        }
+
+        // Validar celular
+        if (!/^\d{11}$/.test(celular)) {
+          alert("Celular Invalido! Por favor, insira exatamente 11 dígitos.");
+          return;
+        }
+
+        
+        alert("Formulário enviado com sucesso! Aguarde um email para mais instruções");
+        window.location.href = "index.html";
+      }
+    </script>
+
+    <script src="js/server.js"></script>
+  </body>
+</html>
