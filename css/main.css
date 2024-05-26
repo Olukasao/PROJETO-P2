@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
@@ -109,11 +108,14 @@ margin-left: -175px;
     font-size: 18px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s; /* Transição suave da cor de fundo */
+    text-decoration: none;
 }
 
 .conteudo-principal-escrito-botao:hover {
     background: linear-gradient(to right, #228B22, #7CFC00);
     display: flex;
+    text-decoration: none;
+    
 }
 
 .container {
@@ -123,7 +125,7 @@ margin-left: -175px;
     width: 20%;
     position: relative;
     top: 123px;
-    left: 65px;
+    left: -61px;
 }
 
 
@@ -310,7 +312,7 @@ margin-left: -175px;
     font-weight: 800;
     line-height: 51px;
     position: relative;
-    top: -1120px;
+    top: -1060px;
     left: -328px;
 }
 
@@ -327,7 +329,7 @@ margin-left: -175px;
     width: 600px;
     height: 400px;
     top: -128px;
-    left: 555px;
+    left: 625px;
     background: #fff;
     border-radius: 57px;
 }
@@ -339,14 +341,14 @@ margin-left: -175px;
 }
 .subtitulo-localizacao {
     position: relative;
-    top: -1138px;
+    top: -1066px;
     left: -328px;
 }
 
 .mapstexto {
     position: relative;
     top: -894px;
-    left: 167px;
+    left: 237px;
 }
 
 
@@ -363,7 +365,7 @@ margin-left: -175px;
     color: #ffffff;
     position: relative;
     text-align: center;
-    left: -22px;
+    left: -5px;
     font-size: 57px;
     white-space: nowrap;
 }
@@ -379,7 +381,7 @@ margin-left: -175px;
 .video-container {
     max-width: 545px;
     position: relative;
-    left: 625px;
+    left: 650px;
     padding-bottom: 17%; /* 16:9 Aspect Ratio */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 1px solid #ccc;
@@ -454,6 +456,8 @@ margin-left: -175px;
 .link-container {
     text-decoration: none;
 }
+
+
 
 
 
