@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(72, 153, 230);
+  }
+
+  #container {
+    background-color: white;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 23px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    position: relative;
+    top: 158px;
+  }
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  #gerenciamento {
+    font-family: Poppins;
+    position: relative;
+    left: 85px;
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    left: 59px;
+
+  }
+
+  button:hover {
+    background-color: #555;
+  }
+
+  #add-usuario {
+    background-color: #2ecc71;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .user-item button {
+    background-color: #3498db;
+    color: #fff;
+  }
+
+  .user-item button:hover {
+    background-color: #2980b9;
+  }

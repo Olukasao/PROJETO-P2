@@ -1,46 +1,22 @@
 {
   "usuarios": [
     {
-      "id": "1",
       "nome": "usuario1",
       "email": "usuario1@testmail.com",
-      "Curso": "Enfermagem"
+      "curso": "Informatica",
+      "id": "1"
     },
     {
-      "id": "2",
+      "id": "73c5",
       "nome": "usuario2",
       "email": "usuario2@testmail.com",
-      "Curso": "Enfermagem"
+      "curso": "Marketing"
     },
     {
-      "id": "2",
-      "nome": "usuario2",
-      "email": "usuario2@testmail.com",
-      "Curso": "Informática"
-    },
-    {
-      "id": "4924",
-      "nome": "teste6",
-      "email": "asdsadadadadad",
-      "Curso": "dasasasasas"
-    },
-    {
-      "nome": "teste8",
-      "email": "fsdaaaaaaadsaaaa",
-      "curso": "",
-      "id": "3975"
-    },
-    {
-      "id": "c160",
-      "nome": "Lucas Soares Gonçalves",
-      "email": "lukasao.11@hotmail.com",
-      "curso": "Eletrotécnica"
-    },
-    {
-      "id": "8f71",
-      "nome": "Lucas Soares Gonçalves",
-      "email": "lukasao.11@hotmail.com",
-      "curso": "Informática"
+      "id": "ce23",
+      "nome": "usuario3",
+      "email": "usuario3@testmail.com",
+      "curso": "Logística"
     }
   ]
 }

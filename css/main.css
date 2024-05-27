@@ -109,7 +109,7 @@ margin-left: -175px;
     font-size: 18px;
     text-decoration: none;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s; /* Transição suave da cor de fundo */
+    transition: background-color 0.3s;
 }
 
 .conteudo-principal-escrito-botao:hover {
@@ -199,7 +199,6 @@ margin-left: -175px;
     gap: 20px;
     margin-top:211px;
     flex-wrap: wrap;
-     /* Adicionando a sombra */
     width: 1800px;
     position: relative;
     left: -455px;
@@ -229,6 +228,7 @@ margin-left: -175px;
     height: 100%;
     border-radius: 8px 8px 0 0;
     object-fit: cover;
+    filter: blur(px);
     
     
 }
@@ -260,7 +260,7 @@ margin-left: -175px;
 }
 
 .course-description {
-    margin-top: 10px; /* Added margin top */
+    margin-top: 10px;
 }
 
 .course-description p {
@@ -383,7 +383,7 @@ margin-left: -175px;
     max-width: 545px;
     position: relative;
     left: 650px;
-    padding-bottom: 17%; /* 16:9 Aspect Ratio */
+    padding-bottom: 17%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 1px solid #ccc;
     border-radius: 25px;
@@ -399,7 +399,7 @@ margin-left: -175px;
 
 .payment-value {
     font-size: 20px;
-    color: #ff6600; /* cor diferente */
+    color: #ff6600;
 }
 
 .titulo {
