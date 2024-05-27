@@ -8,15 +8,13 @@ O objetivo deste projeto é atualizar e modernizar a presença online da Unianch
 
 ## Estrutura do Projeto 🏨
 
-- **/docs**: Documentação do projeto
-- **/src**: Código-fonte do site
-  - **/assets**: Imagens, ícones e outros recursos
-  - **/components**: Componentes reutilizáveis do front-end
-  - **/pages**: Páginas do site
-  - **/styles**: Arquivos de estilo (CSS/SASS)
-  - **/scripts**: Scripts de JavaScript
-- **/tests**: Testes automatizados
-- **/build**: Versão compilada para produção
+## Estrutura do Projeto 🏨
+
+- **/.git**: Diretório do repositório Git
+- **/.vscode**: Configurações do Visual Studio Code
+- **/assets**: Diretório para armazenar recursos (como imagens, ícones, etc.)
+- **/css**: Diretório para arquivos de estilo CSS
+- **/node_modules**: Diretório para pacotes e dependências do Node.js
 
 ## Tecnologias Utilizadas 💻
 
@@ -24,6 +22,8 @@ O objetivo deste projeto é atualizar e modernizar a presença online da Unianch
 - CSS3 / SASS
 - JavaScript / ES6+
 - Node.js (para ambiente de desenvolvimento)
+- JSON (para manipulação de dados)
+- JSON Server (para simulação de uma API REST com JSON)
 
 ## Configuração do Ambiente de Desenvolvimento ⚒️
 
@@ -67,12 +67,6 @@ Além do redesign do site, o projeto inclui as seguintes funcionalidades:
 
     ```bash
     npm install -g json-server
-    ```
-
-  - Navegue até o diretório onde está o arquivo JSON com os dados:
-
-    ```
-    cd caminho/para/o/diretorio
     ```
 
   - Inicie o servidor JSON Server:
