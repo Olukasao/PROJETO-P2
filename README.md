@@ -81,10 +81,3 @@ Além do redesign do site, o projeto inclui as seguintes funcionalidades:
 
   - Você poderá realizar operações básicas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar dados.
 
-## Contribuindo 🤝
-
-Sinta-se à vontade para abrir problemas (issues) e enviar pull requests com melhorias. Todos os tipos de contribuições são bem-vindos!
-
----
-
-Este projeto é mantido pela equipe de desenvolvimento da Unianchieta. Obrigado por contribuir para tornar nossa plataforma online ainda melhor!
