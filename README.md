@@ -8,8 +8,6 @@ O objetivo deste projeto é atualizar e modernizar a presença online da Unianch
 
 ## Estrutura do Projeto 🏨
 
-## Estrutura do Projeto 🏨
-
 - **/.git**: Diretório do repositório Git
 - **/.vscode**: Configurações do Visual Studio Code
 - **/assets**: Diretório para armazenar recursos (como imagens, ícones, etc.)
