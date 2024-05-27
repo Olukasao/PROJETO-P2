@@ -98,6 +98,7 @@ margin-left: -175px;
 }
 
 .conteudo-principal-escrito-botao {
+
     background: linear-gradient(to right, #01441e, #03f103);
     color: #ffffff; 
     border: none; 
@@ -106,9 +107,9 @@ margin-left: -175px;
     cursor: pointer; 
     font-family: Poppins;
     font-size: 18px;
+    text-decoration: none;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s; /* Transição suave da cor de fundo */
-    text-decoration: none;
 }
 
 .conteudo-principal-escrito-botao:hover {
@@ -456,6 +457,8 @@ margin-left: -175px;
 .link-container {
     text-decoration: none;
 }
+
+
 
 
 

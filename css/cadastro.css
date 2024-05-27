@@ -18,7 +18,7 @@ body {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
 }
 
@@ -59,4 +59,10 @@ body {
     margin-top: 5px;
     font-size: 0.875em;
     color: #6c757d;
+}
+
+.titulo-cadastro {
+    font-family: Poppins;
+    position: relative;
+    bottom: 9px;
 }

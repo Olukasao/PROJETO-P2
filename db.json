@@ -1,21 +1,21 @@
 {
   "usuarios": [
     {
-      "nome": "usuario2",
-      "email": "usuario2@testmail.com",
-      "curso": "Informatica",
-      "id": "2"
-    },
-    {
-      "id": "3",
-      "nome": "usuario3",
-      "email": "usuario3@testmail.com",
+      "id": "1",
+      "nome": "usuario1",
+      "email": "usuario1@testmail.com",
       "Curso": "Enfermagem"
     },
     {
-      "id": "4",
-      "nome": "usuario4",
-      "email": "usuario4@testmail.com",
+      "id": "2",
+      "nome": "usuario2",
+      "email": "usuario2@testmail.com",
+      "Curso": "Enfermagem"
+    },
+    {
+      "id": "2",
+      "nome": "usuario2",
+      "email": "usuario2@testmail.com",
       "Curso": "Informática"
     },
     {
@@ -29,6 +29,18 @@
       "email": "fsdaaaaaaadsaaaa",
       "curso": "",
       "id": "3975"
+    },
+    {
+      "id": "c160",
+      "nome": "Lucas Soares Gonçalves",
+      "email": "lukasao.11@hotmail.com",
+      "curso": "Eletrotécnica"
+    },
+    {
+      "id": "8f71",
+      "nome": "Lucas Soares Gonçalves",
+      "email": "lukasao.11@hotmail.com",
+      "curso": "Informática"
     }
   ]
 }
