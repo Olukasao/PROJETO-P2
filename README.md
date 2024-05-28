@@ -56,7 +56,7 @@ Para configurar o ambiente de desenvolvimento, siga as etapas abaixo:
 
  Para acessar o gerenciamento de usuários (CRUD), siga estas etapas :
 
-  - Abra o arquivo `crud.html` no seu navegador ou acesse o link `http://localhost:3000/crud.html`
+  - Abra o arquivo `crud.html` no seu navegador.
 
   - Você poderá realizar operações básicas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar dados.
 
