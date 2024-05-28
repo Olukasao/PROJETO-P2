@@ -36,7 +36,7 @@ Para configurar o ambiente de desenvolvimento, siga as etapas abaixo:
 2. Navegue até o diretório do projeto:
 
    ```
-   cd trabalhofacul
+   cd PROJETO-P2
    ```
 
 3. Instale as dependências do Node.js:
@@ -53,6 +53,13 @@ Para configurar o ambiente de desenvolvimento, siga as etapas abaixo:
 
 5. Abra o navegador e acesse `http://localhost:3000` para visualizar o site em desenvolvimento.
 
+
+ Para acessar o gerenciamento de usuários (CRUD), siga estas etapas :
+
+  - Abra o arquivo `crud.html` no seu navegador ou acesse o link `http://localhost:3000/crud.html`
+
+  - Você poderá realizar operações básicas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar dados.
+
 ## Funcionalidades Adicionais 🚀
 
 Além do redesign do site, o projeto inclui as seguintes funcionalidades:
@@ -60,24 +67,3 @@ Além do redesign do site, o projeto inclui as seguintes funcionalidades:
 - **Abas de Cursos**: Cada curso na página possui um link que direciona o usuário para a página de cadastro.
 
 - **CRUD em JSON**: O projeto também inclui um CRUD simples usando JSON como banco de dados. Para rodar o CRUD, siga estas etapas:
-
-  - Instale o JSON Server globalmente (se ainda não estiver instalado):
-
-    ```bash
-    npm install -g json-server
-    ```
-
-  - Inicie o servidor JSON Server:
-
-    ```bash
-    json-server --watch db.json
-    ```
-
-  - Agora você pode acessar os dados do JSON Server em `http://localhost:3000`.
-
-    Para acessar o gerenciamento de usuários (CRUD), siga estas etapas :
-
-  - Abra o arquivo `crud.html` no seu navegador ou acesse o link `http://localhost:3000/crud.html`
-
-  - Você poderá realizar operações básicas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar dados.
-
