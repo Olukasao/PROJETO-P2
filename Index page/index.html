@@ -30,7 +30,15 @@
             required
           />
         </div>
-
+        <div class="form-group">
+          <input
+            type="password"
+            id="senha"
+            name="senha"
+            placeholder="Senha"
+            required
+          />
+        </div>
         <div class="form-group">
           <select id="curso" name="curso" required>
             <option value="" disabled selected>Selecione o curso</option>
@@ -44,60 +52,11 @@
             <option value="Automação Industrial">Automação Industrial</option>
           </select>
         </div>
-
         <div class="form-group">
           <button type="submit">Cadastrar</button>
         </div>
       </form>
     </div>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        document
-          .getElementById("formCadastro")
-          .addEventListener("submit", function (event) {
-            event.preventDefault();
-            adicionarUsuario();
-          });
-      });
-
-      function adicionarUsuario() {
-        const nome = document.getElementById("nome").value.trim();
-        const email = document.getElementById("email").value.trim();
-        const curso = document.getElementById("curso").value;
-
-        if (nome && email && curso) {
-          const novoUsuario = { nome, email, curso };
-          enviarUsuarioParaServidor(novoUsuario);
-        } else {
-          alert("Por favor, preencha todos os campos.");
-        }
-      }
-
-      async function enviarUsuarioParaServidor(usuario) {
-        const API_URL = "http://localhost:3000/usuarios";
-        try {
-          const response = await fetch(API_URL, {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(usuario),
-          });
-          if (!response.ok) {
-            throw new Error("Erro ao adicionar usuário");
-          }
-          window.location.href = "index.html";
-          alert("Usuário cadastrado com sucesso! Verifique seu email!!");
-        } catch (error) {
-          console.error("Erro:", error);
-          alert(
-            "Ocorreu um erro ao cadastrar usuário. Por favor, tente novamente."
-          );
-        }
-      }
-    </script>
-
-    <script src="js/index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

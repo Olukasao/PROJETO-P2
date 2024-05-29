@@ -17,6 +17,20 @@
       "nome": "usuario3",
       "email": "usuario3@testmail.com",
       "curso": "Logística"
+    },
+    {
+      "id": "3c90",
+      "nome": "Lucas Soares Gonçalves",
+      "email": "lukasao.11@hotmail.com",
+      "senha": "12",
+      "curso": "Eletrotécnica"
+    },
+    {
+      "id": "bc40",
+      "nome": "Oluk",
+      "email": "Olukasao_gamer@hotmail.com",
+      "senha": "asdsadsa",
+      "curso": "Enfermagem"
     }
   ]
 }
