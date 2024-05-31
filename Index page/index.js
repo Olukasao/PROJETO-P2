@@ -35,7 +35,7 @@
           if (!response.ok) {
             throw new Error("Erro ao adicionar usuário");
           }
-          window.location.href = "login.html";
+          window.location.href = "../login page/login.html";
           alert("Usuário cadastrado com sucesso! Verifique seu email!!");
         } catch (error) {
           console.error("Erro:", error);

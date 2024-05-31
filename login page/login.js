@@ -18,7 +18,7 @@
           if (autenticado) {
             alert("Login bem sucedido!");
             // Redirecionar para a página de perfil do usuário ou outra página após o login
-            window.location.href = "cursos.html";
+            window.location.href = "../home page/home.html";
           } else {
             alert("Credenciais inválidas. Por favor, tente novamente.");
           }
