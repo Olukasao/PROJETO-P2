@@ -8,7 +8,7 @@ O objetivo deste projeto é atualizar e modernizar a presença online da Unianch
 
 ## Estrutura do Projeto 🏨
 
-- **/.git**: Diretório do repositório Git
+- **/.git**: Diretório do repositório Git.
 - **/.vscode**: Configurações do Visual Studio Code
 - **/assets**: Diretório para armazenar recursos (como imagens, ícones, etc.)
 - **/css**: Diretório para arquivos de estilo CSS
@@ -25,7 +25,7 @@ O objetivo deste projeto é atualizar e modernizar a presença online da Unianch
 
 ## Configuração do Ambiente de Desenvolvimento ⚒️
 
-Para configurar o ambiente de desenvolvimento, siga as etapas abaixo:
+Para configurar o ambiente de desenvolvimento, Siga as etapas abaixo:
 
 1. Clone este repositório:
 
@@ -51,7 +51,7 @@ Para configurar o ambiente de desenvolvimento, siga as etapas abaixo:
    npm start
    ```
 
-5. Abra o navegador e acesse `http://localhost:3000` para visualizar o site em desenvolvimento.
+5. Abra o navegador e Acesse `http://localhost:3000` para visualizar o site em desenvolvimento.
 
 
  Para acessar o gerenciamento de usuários (CRUD), siga estas etapas :
